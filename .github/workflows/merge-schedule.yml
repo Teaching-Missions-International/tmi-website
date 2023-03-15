@@ -8,7 +8,7 @@ on:
       - synchronize
   schedule:
     # 5:00 AM every day
-    - cron: '0 0 5 * * * *'
+    - cron: '0 5 * * *'
 
 jobs:
   merge_schedule:
